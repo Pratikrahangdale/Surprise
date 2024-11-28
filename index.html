@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise Birthday Wish</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="intro" onclick="revealSurprise()">🎁 Tap to Reveal Your Surprise! 🎁</div>
+    <div class="container">
+        <h1>🎉 Happy Birthday Khyati (Smiley)! 🎉</h1>
+        <h2>You're one in a million! 💖</h2>
+        <p>
+            It’s been six months since I last saw you, and not a single day has passed that I haven’t missed you. I miss those precious moments we shared—the laughter, the silliness, and those deep conversations where time seemed to stop, and all those beautiful moments we spent together. You’re not just my best friend—you’re my safe place, my greatest supporter, and the person who knows me better than anyone else.
+
+Being away from you has made me realize just how much you mean to me. But even with the distance, I know our bond is as strong as ever, and I cherish every memory we’ve made.. Your kindness, beauty, and strength inspire me every single day, even from afar. Your smile is like a ray of sunshine in my life, and I can’t stand the thought of you ever being sad. Your happiness means the world to me, and I’ll always do whatever it takes to keep that beautiful smile on your face.
+
+You hold a place in my heart that no one else ever could. . 
+
+I can’t wait for the day we’re reunited, to laugh, to dream, and to celebrate life together again. I want us to grow together, hustle side by side, and savor every success we achieve. You make every moment brighter, and I’m so lucky to have someone like you in my life.
+
+On your special day, I wish you all the love, joy, and happiness that you bring to everyone around you. You deserve the absolute best because you are the best. Never forget how amazing you are, and always remember that no matter how far apart we are, I’m always here for you.
+
+Keep shining, keep smiling, and know that you’re deeply loved and missed.
+Happy Birthday Smiley! 🎂✨💕
+
+With all my love and endless longing,
+[Pratik] 
+        </p>
+        <div class="photo-container">
+            <img src="images/image.jpeg" alt="Me and My Best Friend">
+        </div>
+        <div class="heart">💗</div>
+    </div>
+    <div class="balloons">
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+    </div>
+    <script>
+        function revealSurprise() {
+            document.querySelector('.intro').style.display = 'none';
+            document.querySelector('.container').classList.add('active');
+            document.querySelector('.balloons').classList.add('active');
+        }
+    </script>
+</body>
+</html>
